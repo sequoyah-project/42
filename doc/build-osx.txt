@@ -1,9 +1,9 @@
 Mac OS X Build Instructions and Notes
 =====================================
 
-Recommended OS X 10.10 (or higher, 10.11.6 - El Capitan was used in this manual). All of the commands should be executed in a Terminal application. The built-in one is located in /Applications/Utilities. 
+MacOS 10.11.6 - El Capitan was used in this manual. All of the commands should be executed in a Terminal application. The built-in one is located in /Applications/Utilities. 
 
-1. Install Xcode (7.3.1 for El Capital) and accept the license agreement:
+1. Install Xcode (7.3.1 for El Capitan), run it and accept the license agreement:
 
 https://developer.apple.com/xcode/
 
@@ -11,36 +11,43 @@ Install Xcode command line tools:
 
 xcode-select --install
 
-2. Install MacPorts with dependencies:
+2. Install MacPorts with main dependencies:
 
 https://distfiles.macports.org/MacPorts/MacPorts-2.3.5-10.11-ElCapitan.pkg
 
-sudo port install libtool boost db60 openssl qrencode
+sudo port install autoconf automake libtool pkgconfig db60 openssl qrencode qt5
 
-nano ~/.profile
-Add these lines:
-export PATH=$PATH:~/opt/local/lib/db6.0
-export PATH=$PATH:~/opt/local/lib/db60/include
+sudo ln -s /opt/local/libexec/qt5/bin/qmake /opt/local/bin/qmake
 
-Ctrl+O, Enter, Ctrl+X
-
-3. Install Homebrew(http://brew.sh) with dependencies.
+3. Install Homebrew(http://brew.sh) with dependencies:
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install autoconf automake pkg-config qt5
+brew install python2 boost@1.60
 
-brew link --force qt5
+brew link --force boost@1.60
 
-4. Clone the github tree and build 42-Qt application.
+4. Add to PATH:
+
+nano ~/.profile
+
+export PATH=$PATH:~/opt/local/lib/db6.0
+export PATH=$PATH:~/opt/local/lib/db60/include
+export PATH=$PATH:~/usr/local/Cellar/boost@1.60/1.60.0/include/boost/thread.hpp
+
+Ctrl+O, Enter, Ctrl+X
+
+5. Clone the github tree:
 
 git clone https://github.com/42-coin/42.git
+
+6. Build 42-Qt application:
 
 cd 42
 qmake
 make
 
-5. Create the .dmg disk image:
+7. Create the .dmg disk image:
 
 sudo easy_install appscript
 ./contrib/macdeploy/macdeployqtplus 42-Qt.app -dmg -fancy ./contrib/macdeploy/fancy.plist

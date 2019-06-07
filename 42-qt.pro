@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = 42-qt
-VERSION = 0.7.5
+VERSION = 0.10.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -450,7 +450,7 @@ isEmpty(BOOST_LIB_PATH) {
 }
 
 isEmpty(BOOST_INCLUDE_PATH) {
-    macx:BOOST_INCLUDE_PATH = /usr/local/opt/boost@1.60/includee
+    macx:BOOST_INCLUDE_PATH = /usr/local/opt/boost@1.60/include
 }
 
 windows:DEFINES += WIN32

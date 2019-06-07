@@ -84,7 +84,8 @@ RANLIB /c/Android/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt
 -Перейдите в папку C:\MinGW\msys\1.0 и запустите msys.bat
 Из MinGw shell выполните следующий код:
 
-cd /c/Android/deps/openssl-1.0
+cd /c/Android/deps/openssl-1.0.2
+Configure no-shared no-dso android-armv7
 make
 
 2.2 Berkeley DB

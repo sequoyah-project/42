@@ -16,7 +16,7 @@ for Debian and Ubuntu  <= 11.10 :
 
 ::
 
-    apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
+    sido apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
         libssl-dev libdb4.8++-dev
 
@@ -24,20 +24,42 @@ for Ubuntu >= 12.04 (please read the 'Berkely DB version warning' below):
 
 ::
 
-    apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
+    sudo apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
         libssl-dev libdb++-dev
-
-then execute the following:
+		
+install Git:
 
 ::
 
-    qmake
+    sudo apt-get install git
+
+clone the repository :
+
+::
+
+    git clone https://github.com/42-coin/42
+   
+
+delete ifaddrs.h and ifaddrs.c files in 42/src folder, then execute the following:
+
+::
+
+    cd 42
+    qmake USE_O3=1 USE_ASM=1 RELEASE=1 STATIC=1
     make
 
 Alternatively, install Qt Creator and open the `42-qt.pro` file.
 
 An executable named `42-qt` will be built.
+
+To build 42d execute the following:
+
+::
+
+    cd src
+    make -f makefile.unix USE_O3=1 USE_ASM=1 STATIC=1
+    strip 42d
 
 
 Windows
@@ -137,7 +159,7 @@ It can be downloaded from http://fukuchi.org/works/qrencode/index.html.en, or in
 Berkely DB version warning
 ==========================
 
-A warning for people using the *static binary* version of 42 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for using the *static binary* version of 42 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
 The static binary version of 42 is linked against libdb5.3.
 

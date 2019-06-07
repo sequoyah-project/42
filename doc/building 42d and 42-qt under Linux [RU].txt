@@ -20,11 +20,11 @@ sudo apt-get install  libglew-dev libcheese7 libcheese-gtk23 libclutter-gst-2.0-
 openSUSE(проверено на версии 13.2):
  sudo zypper install git gcc gcc-c++ libqt4-devel boost-devel libopenssl-devel libdb-4_8-devel libqrencode3
 
-После того, как установка завершалась, можно клонировать 42 репозитарий
+После того, как установка завершалась, клонируем 42 репозиторий:
 
  git clone https://github.com/42-coin/42.git
 
-и наконец, скомпилировать свой клиент
+в папке 42/src удаляем файлы ifaddrs.h and ifaddrs.c и наконец, можео скомпилировать свой клиент:
 
  cd 42
  qmake USE_O3=1 USE_ASM=1 (если хотите LevelDB, то USE_LEVELDB=1)  

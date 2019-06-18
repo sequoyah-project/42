@@ -46,7 +46,7 @@ delete ifaddrs.h and ifaddrs.c files in 42/src folder, then execute the followin
 ::
 
     cd 42
-    qmake USE_O3=1 USE_ASM=1 RELEASE=1 STATIC=1
+    qmake USE_O3=1 USE_ASM=1 RELEASE=1
     make
 
 Alternatively, install Qt Creator and open the `42-qt.pro` file.
@@ -159,7 +159,7 @@ It can be downloaded from http://fukuchi.org/works/qrencode/index.html.en, or in
 Berkely DB version warning
 ==========================
 
-A warning for using the *static binary* version of 42 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for people using the *static binary* version of 42 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
 The static binary version of 42 is linked against libdb5.3.
 

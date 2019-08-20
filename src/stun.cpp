@@ -57,7 +57,7 @@ extern uint64_t GetRand(uint64_t nMax);
 /*---------------------------------------------------------------------*/
 
 struct StunSrv {
-    char     name[30];
+    char     name[36];
     uint16_t port;
 };
 

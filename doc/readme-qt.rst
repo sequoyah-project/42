@@ -1,4 +1,4 @@
-42-qt: Qt4 GUI for 42
+SQY-qt: Qt4 GUI for SQY
 ===============================
 
 Build instructions
@@ -38,28 +38,28 @@ clone the repository :
 
 ::
 
-    git clone https://github.com/42-coin/42
+    git clone https://github.com/sequoyah-project/SQY
    
 
-delete ifaddrs.h and ifaddrs.c files in 42/src folder, then execute the following:
+delete ifaddrs.h and ifaddrs.c files in SQY/src folder, then execute the following:
 
 ::
 
-    cd 42
+    cd SQY
     qmake USE_O3=1 USE_ASM=1 RELEASE=1
     make
 
-Alternatively, install Qt Creator and open the `42-qt.pro` file.
+Alternatively, install Qt Creator and open the `SQY-qt.pro` file.
 
-An executable named `42-qt` will be built.
+An executable named `SQY-qt` will be built.
 
-To build 42d execute the following:
+To build SQYd execute the following:
 
 ::
 
     cd src
     make -f makefile.unix USE_O3=1 USE_ASM=1 STATIC=1
-    strip 42d
+    strip SQYd
 
 
 Windows
@@ -159,9 +159,9 @@ It can be downloaded from http://fukuchi.org/works/qrencode/index.html.en, or in
 Berkely DB version warning
 ==========================
 
-A warning for people using the *static binary* version of 42 on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
+A warning for people using the *static binary* version of SQY on a Linux/UNIX-ish system (tl;dr: **Berkely DB databases are not forward compatible**).
 
-The static binary version of 42 is linked against libdb5.3.
+The static binary version of SQY is linked against libdb5.3.
 
 If the globally installed development package of Berkely DB installed on your system is 5.X, for example, any source you
 build yourself will be linked against that. The first time you run with a 5.X version the database will be upgraded,
@@ -172,7 +172,7 @@ Ubuntu 11.10 warning
 ====================
 
 Ubuntu 11.10 has a package called 'qt-at-spi' installed by default.  At the time of writing, having that package
-installed causes 42-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
+installed causes SQY-qt to crash intermittently.  The issue has been reported as `launchpad bug 857790`_, but
 isn't yet fixed.
 
 Until the bug is fixed, you can remove the qt-at-spi package to work around the problem, though this will presumably

@@ -18,8 +18,8 @@ using namespace std;
 
 
 // Protocol switch time for fixed kernel modifier interval
-unsigned int nModifierSwitchTime  = 1481068800;    // Wed, 7 Dec 2016 00:00:00 GMT
-unsigned int nModifierTestSwitchTime = 1481068800; // Wed, 7 Dec 2016 00:00:00 GMT
+unsigned int nModifierSwitchTime  = 1571184000;    // Wed, 16 Oct 2019 00:00:00 GMT
+unsigned int nModifierTestSwitchTime = 1571184000; // Wed, 16 Oct 2019 00:00:00 GMT
 
 // Note: user must upgrade before the protocol switch deadline, otherwise it's required to
 //   re-download the blockchain. The timestamp of upgrade is recorded in the blockchain 
@@ -31,20 +31,14 @@ typedef std::map<int, unsigned int> MapModifierCheckpoints;
 // Hard checkpoints of stake modifiers to ensure they are deterministic
 static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
-        ( 0,       0xfd11f4e7 )
-		( 420,     0x9ccdddaf )
-		( 4200,    0x6cfc8d5b )
-		( 21000,   0xe32676ac )
-		( 42000,   0x51bb6d61 )
-		( 70000,   0x50ed7983 )
-		( 84000,   0x03dd44f4 )
-		( 124000,  0xb60e47a5 )
+        ( 0,   0x0e00670b )
+		( 100, 0xf4bf3003 )
     ;
 
 // Hard checkpoints of stake modifiers to ensure they are deterministic (testNet)
 static std::map<int, unsigned int> mapStakeModifierCheckpointsTestNet =
     boost::assign::map_list_of
-        ( 0, 0xfd11f4e7 )
+        ( 0, 0x0e00670b )
 	;
 
 // Whether the given block is subject to new modifier protocol

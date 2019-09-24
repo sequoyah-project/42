@@ -34,18 +34,18 @@ class CNode;
 // Global state
 //
 
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
+static const unsigned int MAX_BLOCK_SIZE = 10000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 
-static const int64_t MIN_TX_FEE = 1;
+static const int64_t MIN_TX_FEE = 10000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 
-static const int64_t MAX_MONEY = 42 * COIN;
+static const int64_t MAX_MONEY = 100000000 * COIN;
 static const int64_t COIN_YEAR_REWARD = 0 * COIN; // 0% per year
-static const int64_t MIN_TXOUT_AMOUNT = MIN_TX_FEE;
+static const int64_t MIN_TXOUT_AMOUNT = CENT/1000;
 
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
@@ -54,11 +54,11 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 // Maximum number of script-checking threads allowed
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 
-static const uint256 hashGenesisBlock("0x000004cf6cc5eec2d2d564fa45c26278ed72014822a601c1ff02cd84d0ef63be");
-static const uint256 hashGenesisBlockTestNet("0x00000bc79a2049b1430c77d81fad3373070e65668b21792d298ae5dde3e7abb8");
+static const uint256 hashGenesisBlock("0x00000adf5f661e9c20192f4783f4bc13c14d4a9c39d427fc606adc6b0eb97b73");
+static const uint256 hashGenesisBlockTestNet("0x00005c47554358df0dee747b85ba276606a8b69d0b3f820b3f11b92b4026743c");
 
-inline int64_t PastDrift(int64_t nTime)   { return nTime - 2 * nOneHour; } // up to 2 hours from the past
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 2 * nOneHour; } // up to 2 hours from the future
+inline int64_t PastDrift(int64_t nTime)   { return nTime - 3 * nOneHour; } // up to 3 hours from the past
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 3 * nOneHour; } // up to 3 hours from the future
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;

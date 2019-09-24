@@ -1,4 +1,4 @@
-42               ICON    "pixmaps/42.ico"
+SQY               ICON    "pixmaps/SQY.ico"
 
 #include "wx/msw/wx.rc"
 

@@ -1,3 +1,4 @@
+Copyright (c) 2019 SEQUOYAH Developers
 Copyright (c) 2016-2019 42 Developers
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2013 PPCoin Developers
@@ -10,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-42 is a free open source project derived from Bitcoin, with
+SEQUOYAH is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient scrypt-based crypto-currency.
 Built on the foundation of Bitcoin and PPCoin, innovations such as proof-of-stake and scrypt
 help further advance the field of crypto-currency.

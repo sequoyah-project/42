@@ -9,7 +9,7 @@ the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 
-See readme-qt.rst for instructions on building 42 QT, the
+See readme-qt.rst for instructions on building SQY QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -65,9 +65,9 @@ downloaded boost jam 3.1.18
 cd \boost-1.57.0-mgw
 bjam toolset=gcc --build-type=complete stage
 
-42
+SQY
 -------
 DOS prompt:
-cd \42\src
+cd \SQY\src
 mingw32-make -f makefile.mingw
-strip 42d.exe
+strip SQYd.exe

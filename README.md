@@ -1,25 +1,26 @@
-[![42-256.png](https://i.imgur.com/mWOY6Z5.png)](https://tr.im/42coin)
+[![SQY-256.png](https://i.imgur.com/sgi0zqR.png)](https://github.com/sequoyah-project/SQY/releases)
 
 
-42-coin - a PoW/PoS based cryptocurrency.
+SEQUOYAH (SQY) - a PoS/PoW based cryptocurrency.
 		
 Specifications
 --------------
 
-- Max money: 42 coins
-- Transaction confirmation method: PoW+POS
+- Total Supply (premined): 1000000000 coins
+- Transaction confirmation method: PoS + PoW
 - Transaction type: public & private
-- Number of transaction confirmation: 7
-- Number of block confirmation: 42
+- Number of transaction confirmation: 6
+- Transaction fee: 0.0001
+- Number of block confirmation: 60
+- PoS reward: 0 coin - tx fe
+- Min stake age: 2 days
+- Max stake age: 60 days
+- PoS target spacing: 6 minutes
 - PoW algo type: Scrypt
 - PoW reward: 0 coin + tx fees
-- PoW target spacing: 21 minutes
-- PoS reward: 0 coin & destroy tx fees (for deflation)
-- Min stake age: 42 hours
-- Max stake age: unlimited
-- PoS target spacing: 7 minutes
-- Default Listen Port: 4242 (42420 for testnet)
-- JSON-RPC Port: 2121 (21210 for testnet)
+- PoW target spacing: 12 minutes
+- Default Listen Port: 6118 (61180 for testnet)
+- JSON-RPC Port: 7091 (70910 for testnet)
 
 
 Development process
@@ -35,7 +36,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of 42.
+official, stable release versions of SQY.
 
 Feature branches are created when there are major new features being
 worked on by several people.

@@ -36,9 +36,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("42");
-    case mBTC: return QString("m42");
-    case uBTC: return QString::fromUtf8("μ42");
+    case BTC: return QString("SQY");
+    case mBTC: return QString("mSQY");
+    case uBTC: return QString::fromUtf8("μSQY");
     case Dents: return QString("Dents");
     default: return QString("???");
     }
@@ -48,9 +48,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("42");
-    case mBTC: return QString("Milli-42 (1 / 1,000)");
-    case uBTC: return QString("Micro-42 (1 / 1,000,000)");
+    case BTC: return QString("SQY");
+    case mBTC: return QString("Milli-SQY (1 / 1,000)");
+    case uBTC: return QString("Micro-SQY (1 / 1,000,000)");
     case Dents: return QString("Dents (1 / 100,000,000)");
     default: return QString("???");
     }

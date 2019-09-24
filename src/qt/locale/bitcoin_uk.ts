@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About 42</source>
-        <translation>Про 42</translation>
+        <source>About SQY</source>
+        <translation>Про SQY</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="56"/>
-        <source>&lt;b&gt;42&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;42&lt;/b&gt; версії</translation>
+        <source>&lt;b&gt;SQY&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SQY&lt;/b&gt; версії</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -21,13 +21,15 @@ Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
 Copyright © 2012-2016 The NovaCoin Developers
-Copyright © 2016-2019 The 42 Developers</source>
+Copyright © 2016-2019 The 42 Developers
+Copyright © 2019 The SEQUOYAH Developers</source>
         <translation>© 2009-2016 Розробники Bitcoin
 © 2011-2012 Розробники PPCoin
 © 2014 Розробники Peerunity
 © 2014 Розробники EmerCoin
 © 2012-2016 Розробники NovaCoin
-© 2016-2019 Розробники 42</translation>
+© 2016-2019 Розробники 42
+© 2019 Розробники SEQUOYAH</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -44,7 +46,7 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your 42 addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your SQY addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив.</translation>
     </message>
     <message>
@@ -79,7 +81,7 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a 42 address</source>
+        <source>Sign a message to prove you own a SQY address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -89,8 +91,8 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified 42 address</source>
-        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою 42</translation>
+        <source>Verify a message to ensure it was signed with a specified SQY address</source>
+        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою SQY</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="119"/>
@@ -242,7 +244,7 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <source>42 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>SQY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Новакоін-клієнт буде закрито для завершення процесу шифрування. Пам’ятайте, що шифрування гаманця не може повністю захистити ваші новакоіни від кражі, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -295,8 +297,8 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
-        <source>42 will close now to finish the decryption process. </source>
-        <translation>Зараз 42 клієнт буде закрито щоб завершити процес розшифровки.</translation>
+        <source>SQY will close now to finish the decryption process. </source>
+        <translation>Зараз SQY клієнт буде закрито щоб завершити процес розшифровки.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
@@ -314,14 +316,14 @@ Copyright © 2016-2019 The 42 Developers</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="146"/>
-        <source>A fatal error occurred. 42 can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки 42 не може продовжувати роботу безпечно.</translation>
+        <source>A fatal error occurred. SQY can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки SQY не може продовжувати роботу безпечно.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <location filename="../bitcoingui.cpp" line="736"/>
-        <source>42</source>
-        <translation>42</translation>
+        <source>SQY</source>
+        <translation>SQY</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
@@ -345,7 +347,7 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Send coins to a 42 address</source>
+        <source>Send coins to a SQY address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
@@ -410,13 +412,13 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>&amp;About 42</source>
-        <translation>П&amp;ро 42</translation>
+        <source>&amp;About SQY</source>
+        <translation>П&amp;ро SQY</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
-        <source>Show information about 42</source>
-        <translation>Показати інформацію про 42</translation>
+        <source>Show information about SQY</source>
+        <translation>Показати інформацію про SQY</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -436,8 +438,8 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="314"/>
-        <source>Modify configuration options for 42</source>
-        <translation>Редагувати параметри 42</translation>
+        <source>Modify configuration options for SQY</source>
+        <translation>Редагувати параметри SQY</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="316"/>
@@ -501,8 +503,8 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="329"/>
-        <source>Sign messages with your 42 addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою 42-адресою</translation>
+        <source>Sign messages with your SQY addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою SQY-адресою</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="330"/>
@@ -511,8 +513,8 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="331"/>
-        <source>Verify messages to ensure they were signed with specified 42 addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною 42-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified SQY addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною SQY-адресою</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="332"/>
@@ -521,7 +523,7 @@ Copyright © 2016-2019 The 42 Developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
-        <source>Second auth with your 42 addresses</source>
+        <source>Second auth with your SQY addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -613,16 +615,16 @@ Copyright © 2016-2019 The 42 Developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="445"/>
         <location filename="../bitcoingui.cpp" line="513"/>
-        <source>42 client</source>
-        <translation>42 клієнт</translation>
+        <source>SQY client</source>
+        <translation>SQY клієнт</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="586"/>
-        <source>%n active connection(s) to 42 network</source>
+        <source>%n active connection(s) to SQY network</source>
         <translation>
-            <numerusform>%n активне з&apos;єднання з мережею 42</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею 42</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею 42</numerusform>
+            <numerusform>%n активне з&apos;єднання з мережею SQY</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею SQY</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею SQY</numerusform>
         </translation>
     </message>
     <message>
@@ -796,8 +798,8 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
-        <source>URI can not be parsed! This can be caused by an invalid 42 address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною 42-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SQY address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною SQY-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
@@ -935,8 +937,8 @@ Some or all keys from:
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00000000 42</source>
-        <translation type="obsolete">0.00000000 42</translation>
+        <source>0.00000000 SQY</source>
+        <translation type="obsolete">0.00000000 SQY</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -1239,8 +1241,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
-        <source>The entered address &quot;%1&quot; is not a valid 42 address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі 42</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SQY address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі SQY</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
@@ -1291,8 +1293,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="476"/>
         <location filename="../guiutil.cpp" line="488"/>
-        <source>42-Qt</source>
-        <translation>42-Qt</translation>
+        <source>SQY-Qt</source>
+        <translation>SQY-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="476"/>
@@ -1339,17 +1341,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to 42-qt.</source>
+        <source>Welcome to SQY-qt.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where 42-qt will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SQY-qt will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>42-qt will download and store a copy of the 42 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SQY-qt will download and store a copy of the SQY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1364,7 +1366,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../intro.cpp" line="184"/>
-        <source>42-qt</source>
+        <source>SQY-qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1791,8 +1793,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="obsolete">123.456</translation>
     </message>
     <message>
-        <source>42</source>
-        <translation type="obsolete">42</translation>
+        <source>SQY</source>
+        <translation type="obsolete">SQY</translation>
     </message>
     <message>
         <location filename="../forms/multisigdialog.ui" line="413"/>
@@ -1901,13 +1903,13 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="522"/>
-        <source>The fee of the transaction (%1 42) is smaller than the expected fee (%2 42). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 42) менше, ніж очікувана комісія (%2 42). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 SQY) is smaller than the expected fee (%2 SQY). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 SQY) менше, ніж очікувана комісія (%2 SQY). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="528"/>
-        <source>The fee of the transaction (%1 42) is bigger than the expected fee (%2 42). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 42) більша, ніж очікувана комісія (%2 42). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 SQY) is bigger than the expected fee (%2 SQY). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 SQY) більша, ніж очікувана комісія (%2 SQY). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
 </context>
 <context>
@@ -1982,12 +1984,12 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="86"/>
-        <source>Automatically start 42 after logging in to the system.</source>
+        <source>Automatically start SQY after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="89"/>
-        <source>&amp;Start 42 on system login</source>
+        <source>&amp;Start SQY on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -2007,7 +2009,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="126"/>
-        <source>Connect to the 42 network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the SQY network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Підключення до мережі через SOCKS5 проксі (напр. при підключенні через Tor).</translation>
     </message>
     <message>
@@ -2117,8 +2119,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="425"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting 42.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску 42.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SQY.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску SQY.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="436"/>
@@ -2132,8 +2134,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="458"/>
-        <source>Whether to show 42 addresses in the transaction list or not.</source>
-        <translation>Відображати адреси 42 у списку транзакцій чи ні.</translation>
+        <source>Whether to show SQY addresses in the transaction list or not.</source>
+        <translation>Відображати адреси SQY у списку транзакцій чи ні.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="461"/>
@@ -2194,8 +2196,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../optionsdialog.cpp" line="251"/>
         <location filename="../optionsdialog.cpp" line="260"/>
         <location filename="../optionsdialog.cpp" line="269"/>
-        <source>This setting will take effect after restarting 42.</source>
-        <translation>Цей параметр набуде чинності після перезавантаження 42.</translation>
+        <source>This setting will take effect after restarting SQY.</source>
+        <translation>Цей параметр набуде чинності після перезавантаження SQY.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="299"/>
@@ -2228,8 +2230,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the 42 network after a connection is established, but this process has not completed yet.</source>
-        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею 42 після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SQY network after a connection is established, but this process has not completed yet.</source>
+        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею SQY після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2329,18 +2331,18 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>42s</source>
-        <translation>42s</translation>
+        <source>SQYs</source>
+        <translation>SQYs</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-42s (1 / 1,000)</source>
-        <translation>Milli-42s (1 / 1,000)</translation>
+        <source>Milli-SQYs (1 / 1,000)</source>
+        <translation>Milli-SQYs (1 / 1,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-42s (1 / 1,000,000)</source>
-        <translation>Micro-42s (1 / 1,000,000)</translation>
+        <source>Micro-SQYs (1 / 1,000,000)</source>
+        <translation>Micro-SQYs (1 / 1,000,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>
@@ -2440,8 +2442,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>42 - Debug window</source>
-        <translation>42 - Вікно відладки</translation>
+        <source>SQY - Debug window</source>
+        <translation>SQY - Вікно відладки</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2480,8 +2482,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Open the 42 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрийте файл журналу відладки 42 з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the SQY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте файл журналу відладки SQY з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
@@ -2495,8 +2497,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
-        <source>Show the 42-Qt help message to get a list with possible 42 command-line options.</source>
-        <translation>Показати довідку 42-Qt для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the SQY-Qt help message to get a list with possible SQY command-line options.</source>
+        <translation>Показати довідку SQY-Qt для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="150"/>
@@ -2560,8 +2562,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
-        <source>42 Core</source>
-        <translation>Ядро 42</translation>
+        <source>SQY Core</source>
+        <translation>Ядро SQY</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
@@ -2570,8 +2572,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
-        <source>Open the 42 configuration file from the current data directory.</source>
-        <translation>Відкрийте файл конфігурації 42 з поточного каталогу даних.</translation>
+        <source>Open the SQY configuration file from the current data directory.</source>
+        <translation>Відкрийте файл конфігурації SQY з поточного каталогу даних.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
@@ -2615,8 +2617,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
-        <source>Welcome to the 42 RPC console.</source>
-        <translation>Вітаємо у консолі 42 RPC.</translation>
+        <source>Welcome to the SQY RPC console.</source>
+        <translation>Вітаємо у консолі SQY RPC.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
@@ -2720,7 +2722,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this 42 address</source>
+        <source>Sign the message to prove you own this SQY address</source>
         <translation type="obsolete">Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2740,8 +2742,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="29"/>
-        <source>Enter a 42 address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
-        <translation type="unfinished">Введіть адресу 42 (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
+        <source>Enter a SQY address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
+        <translation type="unfinished">Введіть адресу SQY (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="30"/>
@@ -2844,8 +2846,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00000000 42</source>
-        <translation type="obsolete">0.00000000 42</translation>
+        <source>0.00000000 SQY</source>
+        <translation type="obsolete">0.00000000 SQY</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -2933,8 +2935,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Баланс:</translation>
     </message>
     <message>
-        <source>123.456 42</source>
-        <translation type="obsolete">123.456 42</translation>
+        <source>123.456 SQY</source>
+        <translation type="obsolete">123.456 SQY</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="772"/>
@@ -2948,8 +2950,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="43"/>
-        <source>Enter a 42 address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
-        <translation>Введіть адресу 42 (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
+        <source>Enter a SQY address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
+        <translation>Введіть адресу SQY (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
@@ -3108,8 +3110,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a 42 address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
-        <translation>Введіть адресу 42 (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
+        <source>Enter a SQY address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
+        <translation>Введіть адресу SQY (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
     </message>
 </context>
 <context>
@@ -3169,7 +3171,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this 42 address</source>
+        <source>Sign the message to prove you own this SQY address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -3201,8 +3203,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified 42 address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною 42-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified SQY address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною SQY-адресою</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
@@ -3212,8 +3214,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a 42 address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
-        <translation>Введіть адресу 42 (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
+        <source>Enter a SQY address (e.g. 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</source>
+        <translation>Введіть адресу SQY (наприклад 4VsEs7wqRpoiTpmqViWRtse1P3CNgvBw4g)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
@@ -3222,8 +3224,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
-        <source>Enter 42 signature</source>
-        <translation>Введіть підпис 42</translation>
+        <source>Enter SQY signature</source>
+        <translation>Введіть підпис SQY</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3456,8 +3458,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="253"/>
-        <source>Generated coins must mature 42 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Після генерації монет, потрібно зачекати 42 блока, перш ніж їх можна буде використати. Коли ви згенерували цей блок, його було відправлено в мережу для того, щоб він був доданий до ланцюжка блоків. Якщо ця процедура не вдасться, статус буде змінено на «не підтверджено» і ви не зможете витратити згенеровані монети. Таке може статись, якщо хтось інший згенерував блок на декілька секунд раніше.</translation>
+        <source>Generated coins must mature SQY blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Після генерації монет, потрібно зачекати SQY блока, перш ніж їх можна буде використати. Коли ви згенерували цей блок, його було відправлено в мережу для того, щоб він був доданий до ланцюжка блоків. Якщо ця процедура не вдасться, статус буде змінено на «не підтверджено» і ви не зможете витратити згенеровані монети. Таке може статись, якщо хтось інший згенерував блок на декілька секунд раніше.</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="260"/>
@@ -3813,7 +3815,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=42rpc
+rpcuser=SQYrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3821,7 +3823,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=42rpc
+rpcuser=SQYrpc
 rpcpassword=%s
 (ви не повинні пам&apos;ятати цей пароль)
 Ім’я користувача та пароль ПОВИННІ бути різними.
@@ -3846,8 +3848,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  42 is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. 42, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s.  SQY is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. SQY, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -3881,8 +3883,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 2121 or testnet: 21210)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC з&apos;єднань (типово: 2121, для тестової мережі: 21210)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7091 or testnet: 70910)</source>
+        <translation>Прослуховувати &lt;port&gt; для JSON-RPC з&apos;єднань (типово: 7091, для тестової мережі: 70910)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -3896,8 +3898,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. 42 is probably already running.</source>
-        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, 42 вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. SQY is probably already running.</source>
+        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, SQY вже запущено.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
@@ -3906,8 +3908,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong 42 will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, 42 може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SQY will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, SQY може працювати некоректно.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
@@ -4037,8 +4039,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of 42</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії 42</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SQY</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії SQY</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4149,8 +4151,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4242 or testnet: 42420)</source>
-        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 4242, для тестової мережі: 42420)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 6118 or testnet: 61180)</source>
+        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 6118, для тестової мережі: 61180)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
@@ -4184,13 +4186,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>42 version</source>
-        <translation>42 версії</translation>
+        <source>SQY version</source>
+        <translation>SQY версії</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>42</source>
-        <translation>42</translation>
+        <source>SQY</source>
+        <translation>SQY</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -4253,7 +4255,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Send command to -server or 42d</source>
+        <source>Send command to -server or SQYd</source>
         <translation>Відправити команду серверу -server чи демону
 </translation>
     </message>
@@ -4323,8 +4325,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
-        <source>Specify configuration file (default: 42.conf)</source>
-        <translation>Вкажіть файл конфігурації (за промовчуванням: 42.conf)
+        <source>Specify configuration file (default: SQY.conf)</source>
+        <translation>Вкажіть файл конфігурації (за промовчуванням: SQY.conf)
 </translation>
     </message>
     <message>
@@ -4340,8 +4342,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify pid file (default: 42d.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: 42d.pid)
+        <source>Specify pid file (default: SQYd.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: SQYd.pid)
 </translation>
     </message>
     <message>
@@ -4427,8 +4429,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="169"/>
-        <source>Wallet needed to be rewritten: restart 42 to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть 42 для завершення</translation>
+        <source>Wallet needed to be rewritten: restart SQY to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть SQY для завершення</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>

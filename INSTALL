@@ -1,9 +1,9 @@
-Building 42
+Building SQY
 
-See doc/readme-qt.rst for instructions on building 42 Qt,
+See doc/readme-qt.rst for instructions on building SQY Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of 42.
+implementation of SQY.
 
-See doc/build-*.txt for instructions on building 42d,
+See doc/build-*.txt for instructions on building SQYd,
 the intended-for-services, no-graphical-interface, reference
-implementation of 42.
+implementation of SQY.
